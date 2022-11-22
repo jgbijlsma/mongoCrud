@@ -1,6 +1,8 @@
 const { MongoClient } = require("mongodb");
 
-const client = new MongoClient("mongodb://localhost:27017");
+const client = new MongoClient(
+  "mongodb://mongo:kvD7SfCpq7fPkbpGMwBN@containers-us-west-121.railway.app:6696"
+);
 
 let dbConnection;
 
